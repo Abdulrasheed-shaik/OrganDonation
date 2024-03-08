@@ -1,0 +1,58 @@
+/* DonorTable.css */
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Button Styles */
+.but {
+  border: 1px solid blue;
+  width: 60px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: deepskyblue;
+}
+
+.but a {
+  text-decoration: none;
+  color: white;
+}
+.donors img{
+  width: 100vw;
+  height: 60vh;
+  margin-top: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  table {
+    font-size: 8px; /* Decrease font size for smaller screens */
+  }
+  
+  .but {
+    margin: 10px; /* Decrease button margin for smaller screens */
+  }
+}

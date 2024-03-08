@@ -1,0 +1,66 @@
+/* DonorTable.css */
+
+/* Container Styles */
+.donor-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Table Styles */
+.donor-table, .patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.donor-table th, .donor-table td, .patient-table th, .patient-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.donor-table th, .patient-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.donor-table tbody tr:nth-child(even), .patient-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.donor-table tbody tr:hover, .patient-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Button Styles */
+.but {
+  border: 1px solid blue;
+  width: 60px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: deepskyblue;
+}
+
+.but a {
+  text-decoration: none;
+  color: white;
+}
+.donorimage img{
+  width: 100vw;
+  height: 50vh;
+  margin-top: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .donor-table-container {
+    overflow-x: auto; /* Enable horizontal scrolling for small screens */
+  }
+
+  .but {
+    margin: 10px; /* Decrease button margin for smaller screens */
+  }
+}
