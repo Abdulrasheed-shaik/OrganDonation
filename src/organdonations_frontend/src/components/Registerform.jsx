@@ -151,6 +151,7 @@ const Registerform = () => {
       <fieldset>
         <legend>Organs:</legend>
         <label>
+        Heart
           <input
             type="checkbox"
             name="organs"
@@ -158,9 +159,10 @@ const Registerform = () => {
             checked={formData.organs.includes('heart')}
             onChange={handleChange}
           />
-          Heart
+
         </label>
         <label>
+        Blood
           <input
             type="checkbox"
             name="organs"
@@ -168,9 +170,10 @@ const Registerform = () => {
             checked={formData.organs.includes('blood')}
             onChange={handleChange}
           />
-          Blood
+        
         </label>
         <label>
+        Eye
           <input
             type="checkbox"
             name="organs"
@@ -178,9 +181,10 @@ const Registerform = () => {
             checked={formData.organs.includes('eye')}
             onChange={handleChange}
           />
-          Eye
+          
         </label>
         <label>
+        Liver
           <input
             type="checkbox"
             name="organs"
@@ -188,9 +192,10 @@ const Registerform = () => {
             checked={formData.organs.includes('liver')}
             onChange={handleChange}
           />
-          Liver
+          
         </label>
         <label>
+        Kidney
           <input
             type="checkbox"
             name="organs"
@@ -198,9 +203,10 @@ const Registerform = () => {
             checked={formData.organs.includes('kidney')}
             onChange={handleChange}
           />
-          Kidney
+        
         </label>
         <label>
+        Lung
           <input
             type="checkbox"
             name="organs"
@@ -208,9 +214,10 @@ const Registerform = () => {
             checked={formData.organs.includes('lung')}
             onChange={handleChange}
           />
-          Lung
+          
         </label>
         <label>
+        Pancreas
           <input
             type="checkbox"
             name="organs"
@@ -218,9 +225,10 @@ const Registerform = () => {
             checked={formData.organs.includes('pancreas')}
             onChange={handleChange}
           />
-          Pancreas
+          
         </label>
         <label>
+        Bonemarrow
           <input
             type="checkbox"
             name="organs"
@@ -228,7 +236,7 @@ const Registerform = () => {
             checked={formData.organs.includes('bonemarrow')}
             onChange={handleChange}
           />
-          Bonemarrow
+          
         </label>
       </fieldset>
       <br />
