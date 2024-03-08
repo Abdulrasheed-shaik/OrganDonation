@@ -26,6 +26,7 @@ const DonorProfile = ({ principal, name, dob, gender, specialization, noofreq, i
           <p><b>Name: </b>{name}</p>
           <p><b>Date of Birth:</b> {dob}</p>
           <p><b>Gender:</b> {gender}</p>
+          <p><b>Mobile Number:</b> {specialization}</p>
         </div>
       </div>
       <Footer />

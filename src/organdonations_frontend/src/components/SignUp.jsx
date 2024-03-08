@@ -184,10 +184,10 @@ function SignUp() {
               <option value='female'>Female</option>
             </select>
           </label>
-          {/*<label style={{ display: isDonor ? 'block' : 'none' }}>
-            Specialization:
+          <label style={{ display: isDonor ? 'block' : 'none' }}>
+            Mobile Number:
             <input id="specialization" type='text' />
-          </label>*/}
+          </label>
         </form>
         <button type="submit" onClick={ski} className='btn1'>Sign Up</button>
       </div>
