@@ -5,7 +5,7 @@ import { organdonations_backend } from "declarations/organdonations_backend";
 import { AuthClient } from "@dfinity/auth-client";
 import { canisterId, createActor } from "declarations/organdonations_backend";
 import DonorProfile from './DonorProfile.jsx';
-import navbg from '../../public/navbg.jpeg'
+import navbg from '../../dist/assets/navbg.jpeg'
 import './Donor.css';
 import './Registerform.css';
 

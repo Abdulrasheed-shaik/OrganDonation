@@ -3,7 +3,7 @@ import { AuthClient } from "@dfinity/auth-client";
 import { organdonations_backend } from 'declarations/organdonations_backend';
 
 import './Hero.css';
-import Navbg from '../../public/organbackground.jpg';
+import Navbg from '../../dist/assets/organbackground.jpg';
 import { Link } from 'react-router-dom';
 import Login from '../components/Login';
 const Hero = (props) => {

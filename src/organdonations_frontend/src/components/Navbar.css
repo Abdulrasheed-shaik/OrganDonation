@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../../public/navbg.jpeg");
+    background-image: url("../../dist/assets/navbg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
