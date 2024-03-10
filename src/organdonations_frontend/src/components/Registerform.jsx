@@ -13,6 +13,7 @@ const Registerform = () => {
     medicalId: '',
     mobileNumber: '',
     bloodGroup: '',
+    lifeStatus: '',
     organs: [],
     height: '',
     weight: ''
@@ -146,6 +147,19 @@ const Registerform = () => {
         <option value="AB-">AB-</option>
         <option value="O+">O+</option>
         <option value="O-">O-</option>
+      </select>
+      <br />
+      <label htmlFor="lifeStatus">Life Status:</label>
+      <select
+        id="lifeStatus"
+        name="lifeStatus"
+        value={formData.lifeStatus}
+        onChange={handleChange}
+      >
+        <option value="">Select</option>
+        <option value="Healthy">Healthy</option>
+        <option value="Deceased">Deceased</option>
+        <option value="Death">Death</option>
       </select>
       <br />
       <fieldset>

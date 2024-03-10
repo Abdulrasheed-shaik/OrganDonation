@@ -39,6 +39,7 @@ const DonorTable = () => {
           <th>Medical ID</th>
           <th>Contact Number</th>
           <th>Blood Group</th>
+          <th>Life Status</th>
           <th>Organs</th>
           <th>Height (cm)</th>
           <th>Weight (kg)</th>
@@ -54,6 +55,7 @@ const DonorTable = () => {
             <td>{donor.medicalId}</td>
             <td>{donor.mobileNumber}</td>
             <td>{donor.bloodGroup}</td>
+            <td>{donor.lifeStatus}</td>
             <td>{donor.organs.join(', ')}</td>
             <td>{donor.height}</td>
             <td>{donor.weight}</td>
