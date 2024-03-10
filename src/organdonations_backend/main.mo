@@ -25,6 +25,7 @@ actor {
     medicalId : Text;
     mobileNumber : Text;
     bloodGroup : Text;
+    lifeStatus:Text;
     organs : [Text];
     height : Text;
     weight : Text;
