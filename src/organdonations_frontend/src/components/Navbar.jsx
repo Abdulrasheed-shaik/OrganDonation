@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import logo from '../../dist/assets/svglogo.svg'
-import navbg from '../../dist/assets/navbg.jpeg'
+import logo from '../../public/svglogo.svg'
+import navbg from '../../public/navbg.jpeg'
 import { Link, NavLink } from 'react-router-dom'
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
