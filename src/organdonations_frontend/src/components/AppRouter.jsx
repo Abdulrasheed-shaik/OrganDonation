@@ -12,6 +12,7 @@ import PatientForm from './PatientForm';
 import PatientTable from './PatientTable';
 import DonorProfile from './DonorProfile.jsx';
 import PatientProfile from './PatientProfile.jsx';
+import Mdata from './Mdata.jsx';
 
 const AppRouter = () => {
   return (
@@ -28,6 +29,7 @@ const AppRouter = () => {
         <Route path='/patienttable' element={<PatientTable />} />
         <Route path='/donorProfile' element={<DonorProfile />} />
         <Route path='/patientProfile' element={<PatientProfile />} />
+        <Route path='/mdata' element={<Mdata />} />
       </Routes>
     </BrowserRouter>
   );

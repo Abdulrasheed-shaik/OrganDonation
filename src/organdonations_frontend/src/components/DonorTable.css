@@ -49,7 +49,7 @@ tr:hover {
 /* Responsive Styles */
 @media (max-width: 768px) {
   table {
-    font-size: 8px; /* Decrease font size for smaller screens */
+    font-size: 12px; /* Decrease font size for smaller screens */
   }
   
   .but {

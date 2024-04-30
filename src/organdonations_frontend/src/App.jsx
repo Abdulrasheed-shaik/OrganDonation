@@ -15,6 +15,7 @@ import PatientTable from './components/PatientTable';
 import DonorNav from './components/DonorNav';
 import PatientNav from './components/PatientNav';
 import SignUp from './components/SignUp';
+import Mdata from './components/Mdata';
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
             <Route path='/signup' exact Component={SignUp} />
             <Route path='/dnav' exact Component={DonorNav} />
             <Route path='/pnav' exact Component={PatientNav} />
+            <Route path='/mdata' exact Component={Mdata} />
           </Routes>
         </React.Fragment> 
       </Router>

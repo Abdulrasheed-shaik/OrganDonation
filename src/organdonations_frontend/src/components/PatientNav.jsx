@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import '../Profile.css'; // Import the CSS file
 import Profile from '../components/PatientProfile';
-import MatchData from '../components/MatchData';
+import MatchData from '../components/Mdata';
 import PatientForm from '../components/PatientForm';
 import PatientTable from '../components/PatientTable';
 
@@ -147,7 +147,7 @@ const PatientNav = () => {
           <div className='dropdown-box'>
             <Link className='button' to="/patientForm">Patient Register</Link>
             <Link className='button' to="/patientTable">View Patient List</Link>
-            <Link className='button' to="/MatchData">Match Data</Link>
+            <Link className='button' to="/mdata">Match Data</Link>
           </div>
           <div className='dropdown-box'>
             <hr />
