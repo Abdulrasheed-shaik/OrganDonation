@@ -1,5 +1,5 @@
 .body{
-    background-color: #fff;
+    background-color: #ffffff;
 }
 .navbar-container {
     position: absolute;
@@ -23,7 +23,7 @@
     color: #32d7db;
     position: fixed;
     width: 98vw;
-    background-image: url("../../public/navbg.jpeg");
+    background-image: url("../../public/nav.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 10;

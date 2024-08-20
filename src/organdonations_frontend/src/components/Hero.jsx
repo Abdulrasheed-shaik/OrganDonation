@@ -57,7 +57,7 @@ const Hero = (props) => {
         <img src={Navbg} alt='HeroImg' />
       </div>
       <div className='connecttowallet'>
-        <button onClick={handleConnect}>{identity ? 'Disconnect' : 'Connect'}</button>
+        <button onClick={handleConnect}>{identity ? 'Disconnect' : 'Connect to wallet'}</button>
         <br /><br />
         <button><Link to="/signup">Signup</Link></button>
       </div>

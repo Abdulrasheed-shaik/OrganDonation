@@ -71,6 +71,7 @@ const PatientForm = () => {
         name="fullName"
         value={formData.fullName}
         onChange={handleChange}
+        required
       />
       <br />
       <label htmlFor="age">Age:</label>
@@ -81,6 +82,7 @@ const PatientForm = () => {
         value={formData.age}
         onChange={handleChange}
         min={18}
+        required
       />
       <br />
       <label htmlFor="gender">Gender:</label>
@@ -90,6 +92,7 @@ const PatientForm = () => {
         name="gender"
         value={formData.gender}
         onChange={handleChange}
+        required
       />
       <br />
       <label htmlFor="mobileNumber">Mobile Number:</label>
@@ -99,6 +102,7 @@ const PatientForm = () => {
         name="mobileNumber"
         value={formData.mobileNumber}
         onChange={handleChange}
+        required
       />
       <br />
       <label htmlFor="bloodGroup">Blood Group:</label>
@@ -107,6 +111,7 @@ const PatientForm = () => {
         name="bloodGroup"
         value={formData.bloodGroup}
         onChange={handleChange}
+        required
       >
         <option value="">Select</option>
         <option value="A+">A+</option>
@@ -125,6 +130,7 @@ const PatientForm = () => {
         name="organsAffected"
         value={formData.organsAffected}
         onChange={handleChange}
+        required
       >
         <option value="">Select</option>
         <option value="heart">Heart</option>
@@ -145,6 +151,7 @@ const PatientForm = () => {
         value={formData.height}
         onChange={handleChange}
         min={0}
+        required
       />
       <br />
       <label htmlFor="weight">Weight (kg):</label>
@@ -155,6 +162,7 @@ const PatientForm = () => {
         value={formData.weight}
         onChange={handleChange}
         min={0}
+        required
       />
       <br />
       <button type="submit">Submit</button>

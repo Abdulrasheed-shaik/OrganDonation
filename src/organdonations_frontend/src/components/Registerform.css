@@ -6,7 +6,7 @@
     border-radius: 5px;
     margin-top: 2%;
     background-color: darkcyan;
-  }
+   }
   
   .form-container label {
     display: block;
@@ -18,7 +18,7 @@
   .form-container input[type="number"],
   .form-container select,
   .form-container fieldset {
-    width: calc(100% - 12px);/* Adjusted width for borders */
+    width: calc(100% - 12px); /*Adjusted width for borders */
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -54,4 +54,4 @@
   .form-container button:hover {
     background-color: #0056b3;
   }
-  
+

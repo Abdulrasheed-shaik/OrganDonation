@@ -92,6 +92,7 @@ const Registerform = () => {
         name="fullName"
         value={formData.fullName}
         onChange={handleChange}
+        required
       />
       <br />
       <label htmlFor="age">Age:</label>
@@ -102,6 +103,7 @@ const Registerform = () => {
         value={formData.age}
         onChange={handleChange}
         min={18}
+        required
       />
       <br />
       <label htmlFor="gender">Gender:</label>
@@ -111,6 +113,7 @@ const Registerform = () => {
         name="gender"
         value={formData.gender}
         onChange={handleChange}
+        required
       />
       <br />
       {/*<label htmlFor="medicalId">Medical ID:</label>
@@ -129,6 +132,7 @@ const Registerform = () => {
         name="mobileNumber"
         value={formData.mobileNumber}
         onChange={handleChange}
+        required
       />
       <br />
       <label htmlFor="bloodGroup">Blood Group:</label>
@@ -137,6 +141,7 @@ const Registerform = () => {
         name="bloodGroup"
         value={formData.bloodGroup}
         onChange={handleChange}
+        required
       >
         <option value="">Select</option>
         <option value="A+">A+</option>
@@ -155,6 +160,7 @@ const Registerform = () => {
         name="lifeStatus"
         value={formData.lifeStatus}
         onChange={handleChange}
+        required
       >
         <option value="">Select</option>
         <option value="Healthy">Healthy</option>
@@ -262,6 +268,7 @@ const Registerform = () => {
         value={formData.height}
         onChange={handleChange}
         min={0}
+        required
       />
       <br />
       <label htmlFor="weight">Weight (kg):</label>
@@ -272,6 +279,7 @@ const Registerform = () => {
         value={formData.weight}
         onChange={handleChange}
         min={0}
+        required
       />
       <br />
       <button type="submit">Submit</button>
